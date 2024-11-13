@@ -24,6 +24,7 @@
     // Assignment Operations
     echo "Assignment Operations:<br>";
     $c = 10;
+    echo "c = $c<br>";
     $c += 5; // Equivalent to $c = $c + 5
     echo "c += 5: $c<br>";
     $c -= 3; // Equivalent to $c = $c - 3
