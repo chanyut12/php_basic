@@ -61,11 +61,22 @@
     //trim($string): Removes whitespace from the beginning and end of a string.
     $text = "   Hello, PHP!   ";
     echo trim($text);              // Outputs: "Hello, PHP!"
-
+    echo "<br><br>";
     //str_pad($string, length, "padding", STR_PAD_LEFT): Pads a string to a certain length with another string.
     $number = "42";
     echo str_pad($number, 5, "0", STR_PAD_LEFT);  // Outputs: "00042"
+    echo "<br><br>";
 
+    //Splitting and Joining Strings
+    $text1 = "apple,orange,banana";
+    
+    //explode("delimiter", $string): Splits a string into an array based on a delimiter.
+    $fruits = explode(",", $text1);
+    print_r($fruits);  // Outputs: Array ( [0] => apple [1] => orange [2] => banana )
+    echo "<br><br>";
+
+    //implode("delimiter", $array): Joins array elements into a single string with a delimiter.
+    echo implode(" | ", $fruits);  // Outputs: apple | orange | banana      
 
 
 
