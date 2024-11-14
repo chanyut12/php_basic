@@ -40,7 +40,9 @@
         Enter your name (for method post): <input type="text" name="name">
         <input type="submit">
     </form>
+    
     <br><br>
+
     <form action="" method="get">
         Enter your name (for method get): <input type="text" name="name">
         <input type="submit">
